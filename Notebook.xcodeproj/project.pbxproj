@@ -15,6 +15,7 @@
 		D8BB4FE61B250EDB004B52FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8BB4FE51B250EDB004B52FD /* Images.xcassets */; };
 		D8BB4FE91B250EDB004B52FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8BB4FE71B250EDB004B52FD /* LaunchScreen.xib */; };
 		D8BB4FF51B250EDC004B52FD /* NotebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BB4FF41B250EDC004B52FD /* NotebookTests.m */; };
+		D8BB50001B251124004B52FD /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BB4FFF1B251124004B52FD /* CoreDataStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		D8BB4FEE1B250EDC004B52FD /* NotebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BB4FF31B250EDC004B52FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8BB4FF41B250EDC004B52FD /* NotebookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotebookTests.m; sourceTree = "<group>"; };
+		D8BB4FFE1B251124004B52FD /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		D8BB4FFF1B251124004B52FD /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 			children = (
 				D8BB4FD91B250EDB004B52FD /* AppDelegate.h */,
 				D8BB4FDA1B250EDB004B52FD /* AppDelegate.m */,
+				D8BB4FFE1B251124004B52FD /* CoreDataStack.h */,
+				D8BB4FFF1B251124004B52FD /* CoreDataStack.m */,
 				D8BB4FDF1B250EDB004B52FD /* ViewController.h */,
 				D8BB4FE01B250EDB004B52FD /* ViewController.m */,
 				D8BB4FE21B250EDB004B52FD /* Main.storyboard */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8BB50001B251124004B52FD /* CoreDataStack.m in Sources */,
 				D8BB4FDB1B250EDB004B52FD /* AppDelegate.m in Sources */,
 				D8BB4FDE1B250EDB004B52FD /* Notebook.xcdatamodeld in Sources */,
 				D8BB4FE11B250EDB004B52FD /* ViewController.m in Sources */,
