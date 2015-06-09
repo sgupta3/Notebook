@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D88BF4971B266AAC004ED9F0 /* THNotebookEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = D88BF4961B266AAC004ED9F0 /* THNotebookEntry.m */; };
+		D88BF49A1B266DCC004ED9F0 /* NBNewEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88BF4991B266DCC004ED9F0 /* NBNewEntryViewController.m */; };
 		D8BB4FD81B250EDB004B52FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BB4FD71B250EDB004B52FD /* main.m */; };
 		D8BB4FDB1B250EDB004B52FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BB4FDA1B250EDB004B52FD /* AppDelegate.m */; };
 		D8BB4FDE1B250EDB004B52FD /* Notebook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8BB4FDC1B250EDB004B52FD /* Notebook.xcdatamodeld */; };
-		D8BB4FE11B250EDB004B52FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BB4FE01B250EDB004B52FD /* ViewController.m */; };
 		D8BB4FE41B250EDB004B52FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8BB4FE21B250EDB004B52FD /* Main.storyboard */; };
 		D8BB4FE61B250EDB004B52FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8BB4FE51B250EDB004B52FD /* Images.xcassets */; };
 		D8BB4FE91B250EDB004B52FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8BB4FE71B250EDB004B52FD /* LaunchScreen.xib */; };
@@ -29,14 +30,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D88BF4951B266AAC004ED9F0 /* THNotebookEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNotebookEntry.h; sourceTree = "<group>"; };
+		D88BF4961B266AAC004ED9F0 /* THNotebookEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNotebookEntry.m; sourceTree = "<group>"; };
+		D88BF4981B266DCC004ED9F0 /* NBNewEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBNewEntryViewController.h; sourceTree = "<group>"; };
+		D88BF4991B266DCC004ED9F0 /* NBNewEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNewEntryViewController.m; sourceTree = "<group>"; };
 		D8BB4FD21B250EDB004B52FD /* Notebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BB4FD61B250EDB004B52FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8BB4FD71B250EDB004B52FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8BB4FD91B250EDB004B52FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8BB4FDA1B250EDB004B52FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D8BB4FDD1B250EDB004B52FD /* Notebook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notebook.xcdatamodel; sourceTree = "<group>"; };
-		D8BB4FDF1B250EDB004B52FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D8BB4FE01B250EDB004B52FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D8BB4FE31B250EDB004B52FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8BB4FE51B250EDB004B52FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D8BB4FE81B250EDB004B52FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -68,6 +71,10 @@
 		D8BB4FC91B250EDB004B52FD = {
 			isa = PBXGroup;
 			children = (
+				D88BF4981B266DCC004ED9F0 /* NBNewEntryViewController.h */,
+				D88BF4991B266DCC004ED9F0 /* NBNewEntryViewController.m */,
+				D88BF4951B266AAC004ED9F0 /* THNotebookEntry.h */,
+				D88BF4961B266AAC004ED9F0 /* THNotebookEntry.m */,
 				D8BB4FD41B250EDB004B52FD /* Notebook */,
 				D8BB4FF11B250EDC004B52FD /* NotebookTests */,
 				D8BB4FD31B250EDB004B52FD /* Products */,
@@ -90,8 +97,6 @@
 				D8BB4FDA1B250EDB004B52FD /* AppDelegate.m */,
 				D8BB4FFE1B251124004B52FD /* CoreDataStack.h */,
 				D8BB4FFF1B251124004B52FD /* CoreDataStack.m */,
-				D8BB4FDF1B250EDB004B52FD /* ViewController.h */,
-				D8BB4FE01B250EDB004B52FD /* ViewController.m */,
 				D8BB4FE21B250EDB004B52FD /* Main.storyboard */,
 				D8BB4FE51B250EDB004B52FD /* Images.xcassets */,
 				D8BB4FE71B250EDB004B52FD /* LaunchScreen.xib */,
@@ -227,10 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D88BF49A1B266DCC004ED9F0 /* NBNewEntryViewController.m in Sources */,
 				D8BB50001B251124004B52FD /* CoreDataStack.m in Sources */,
+				D88BF4971B266AAC004ED9F0 /* THNotebookEntry.m in Sources */,
 				D8BB4FDB1B250EDB004B52FD /* AppDelegate.m in Sources */,
 				D8BB4FDE1B250EDB004B52FD /* Notebook.xcdatamodeld in Sources */,
-				D8BB4FE11B250EDB004B52FD /* ViewController.m in Sources */,
 				D8BB4FD81B250EDB004B52FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +432,7 @@
 				D8BB4FFA1B250EDC004B52FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8BB4FFB1B250EDC004B52FD /* Build configuration list for PBXNativeTarget "NotebookTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +441,7 @@
 				D8BB4FFD1B250EDC004B52FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
